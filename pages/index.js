@@ -10,50 +10,50 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/NPS_3.png')`}}>
                         <header className="major">
-                            <h3>Aliquam</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>National Park Finder</h3>
+                            <p>A searchable map to find Historic Sites near you</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/Berto_Chicago_install.png')`}}>
                         <header className="major">
-                            <h3>Tempus</h3>
-                            <p>feugiat amet tempus</p>
+                            <h3>Cadmium</h3>
+                            <p>An Art Event Finder App for the City of Richmond, VA</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://ancient-lowlands-14789.herokuapp.com/" target="_blank"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/Work_schedular_2.png')`}}>
                         <header className="major">
-                            <h3>Magna</h3>
-                            <p>Lorem etiam nullam</p>
+                            <h3>Work Day Scheduler</h3>
+                            <p>Track your daily tasks and save your progress</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://johnsoncm.github.io/daily-planner/"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/PW_Generator_Image.png')`}}>
                         <header className="major">
-                            <h3>Ipsum</h3>
-                            <p>Nisl sed aliquam</p>
+                            <h3>Password Generator</h3>
+                            <p>Generate a secure and randomized password quickly and easily</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://johnsoncm.github.io/passwordgenerator/"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/Team_Website.png')`}}>
                         <header className="major">
-                            <h3>Consequat</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>Team Profile Generator</h3>
+                            <p>A command-line app that builds team profiles for quick access to emails and github profiles</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://drive.google.com/file/d/104mIjCfjrItyHMCc-p1ILFkLdlIZft8J/view"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/workout-tracker2.png')`}}>
                         <header className="major">
-                            <h3>Etiam</h3>
-                            <p>Feugiat amet tempus</p>
+                            <h3>Workout Tracker</h3>
+                            <p>A fitness tracker app that allows users to create, view, and track daily workouts</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="https://drive.google.com/file/d/104mIjCfjrItyHMCc-p1ILFkLdlIZft8J/view"><a className="link primary"></a></Link>
                     </article>
                 </section>
-                <section id="two">
+                {/* <section id="two">
                     <div className="inner">
                         <header className="major">
                             <h2>Massa libero</h2>
@@ -63,7 +63,7 @@ export default () => (
                             <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
                         </ul>
                     </div>
-                </section>
+                </section> */}
             </div>
 
         </div>
