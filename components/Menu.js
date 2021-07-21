@@ -5,10 +5,11 @@ const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-                <li><Link href="/"><a><span onClick={props.onToggleMenu}>About</span></a></Link></li>
-                <li><Link href="/#one"><a><span onClick={props.onToggleMenu}>My Work</span></a></Link></li>
+                <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>About</span></a></Link></li>
+                <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>My Work</span></a></Link></li>
                 <li><Link href="/static/images/Casey_Johnson_Resume_6.15.21.pdf"><a><span onClick={props.onToggleMenu}>Resume</span></a></Link></li>
-                <li><Link href="/#contact"><a><span onClick={props.onToggleMenu}>Contact Me</span></a></Link></li>
+                <li><Link href="elements"><a><span onClick={props.onToggleMenu}>Contact Me</span></a></Link></li>
+                <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
             </ul>
             {/* <ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get Started</a></li>

@@ -1,6 +1,16 @@
+const styles = {
+    contactStyle: {
+        padding: "150px",
+        textAlign: 'center',
+        display: 'flex',
+        
+    }
+
+}
+
 const Contact = (props) => (
     <section id="contact">
-        <div className="inner">
+        {/* <div className="inner"> */}
             {/* <section>
                 <form method="post" action="#">
                     <div className="field half first">
@@ -21,32 +31,9 @@ const Contact = (props) => (
                     </ul>
                 </form>
             </section> */}
-            <section className="split">
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a href="#">johnsoncm3@gmail.com</a>
-                    </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(276)971-6670</span>
-                    </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>Richmond, VA<br />
-                        <br />
-                      </span>
-                    </div>
-                </section>
-            </section>
-        </div>
+            
+        
+   
     </section>
 )
 
